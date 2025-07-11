@@ -16,13 +16,13 @@ body {
 /*  Header */
 header {
     background: linear-gradient(to right, #a0c4ff, #bde0fe);
-    padding: 1.5rem 0;
+    padding: 1.5em 0;
     text-align: center;
     border-bottom: 1px solid #ccc;
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: 600;
     color: #003049;
     margin: 0;
@@ -35,7 +35,6 @@ nav {
     max-width: 1000px;
     background: linear-gradient(to right, #caf0f8, #ade8f4);
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 nav ul {
@@ -73,34 +72,33 @@ nav li a:hover {
 footer {
     background-color: #e0f7ff;
     color: #444;
-    padding: 1rem 0;
+    padding: 1em 0;
     text-align: center;
     border-top: 1px solid #bde0fe;
-    font-size: 0.9rem;
+    font-size: 0.9em;
 }
 
 footer a {
     color: #0077b6;
-    text-decoration: none;
 }
 
 /*  Section Styling  */
 section {
-    margin: 2rem auto;
-    padding: 1rem;
+    margin: 2em auto;
+    padding: 1em;
     max-width: 1000px;
 }
 
 /* Floated Images */
 img.float-left {
     float: left;
-    margin: 0 1rem 1rem 0;
+    margin: 0 1em 1em 0;
     max-width: 40%;
 }
 
 img.float-right {
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 0 0 1em 1em;
     max-width: 40%;
 }
 
@@ -109,7 +107,7 @@ img.float-right {
     img.float-left, img.float-right {
         float: none;
         display: block;
-        margin: 0 auto 1rem auto;
+        margin: 0 auto 1em auto;
         max-width: 100%;
     }
 }
