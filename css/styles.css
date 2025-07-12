@@ -1,11 +1,7 @@
 @charset "utf-8";
-/* CSS Document */
 
-/* General Site Styling */
 body {
     font-family: "Cactus Classical Serif", serif;
-    font-weight: 400;
-    font-style: normal;
     background: linear-gradient(to bottom, #e6f4ff, #ffffff);
     color: #333;
     line-height: 1.6;
@@ -13,83 +9,55 @@ body {
     padding: 0;
 }
 
-/*  Header */
 header {
-    background: linear-gradient(to right, #a0c4ff, #bde0fe);
-    padding: 1.5em 0;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
-}
-
-header h1 {
-    font-size: 2em;
-    font-weight: 600;
-    color: #003049;
-    margin: 0;
-}
-
-/*  Nav Bar (Simple List) */
-nav {
-    overflow: auto;
-    margin: 0 auto 2rem auto;
-    max-width: 1000px;
     background: linear-gradient(to right, #caf0f8, #ade8f4);
-    border-radius: 8px;
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+.nav-link {
+    color: #157fb7 !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.2s ease-in-out;
 }
 
-nav li {
-    flex: 1;
-    text-align: center;
-    padding: 1rem 0;
-    font-family: "Cactus Classical Serif";
-    font-weight: 600;
-}
-
-nav li a {
-    color: #0077b6;
-    text-decoration: none;
-    display: block;
-}
-
-nav li:hover {
-    background: #90e0ef;
-    cursor: pointer;
-}
-
-nav li a:hover {
+.nav-link:hover {
+    color: #1f4d88 !important;
+    background-color: #e0f7ff;
     text-decoration: underline;
 }
 
-/* === Footer === */
+/* Active nav link (current page) */
+.nav-link.active {
+    font-weight: 700;
+    background-color: #cde2f4;
+    color: #1a4a88 !important;
+    text-decoration: none;
+    border-radius: 0.375rem;
+}
+
 footer {
     background-color: #e0f7ff;
     color: #444;
-    padding: 1em 0;
-    text-align: center;
-    border-top: 1px solid #bde0fe;
-    font-size: 0.9em;
 }
 
 footer a {
     color: #0077b6;
+    text-decoration: none;
 }
 
-/*  Section Styling  */
+footer a:hover {
+    text-decoration: underline;
+    color: #114588;
+}
+
 section {
     margin: 2em auto;
     padding: 1em;
     max-width: 1000px;
 }
 
-/* Floated Images */
+/* === Floated Images === */
 img.float-left {
     float: left;
     margin: 0 1em 1em 0;
@@ -102,9 +70,10 @@ img.float-right {
     max-width: 40%;
 }
 
-/* Responsive Reset */
+/* === Responsive Images === */
 @media (max-width: 768px) {
-    img.float-left, img.float-right {
+    img.float-left,
+    img.float-right {
         float: none;
         display: block;
         margin: 0 auto 1em auto;
