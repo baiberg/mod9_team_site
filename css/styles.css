@@ -89,3 +89,11 @@ img.float-center {
         max-width: 100%;
     }
 }
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #157fb7 0%, #1f4d88 100%);
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
