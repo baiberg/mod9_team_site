@@ -62,12 +62,21 @@ img.float-left {
     float: left;
     margin: 0 1em 1em 0;
     max-width: 40%;
+    height: auto;
 }
 
 img.float-right {
     float: right;
     margin: 0 0 1em 1em;
     max-width: 40%;
+    height: auto;
+}
+
+img.float-center {
+    float: center;
+    margin: 0 1em 1em 0;
+    max-width: 40%;
+    height: auto;
 }
 
 /* === Responsive Images === */
