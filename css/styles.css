@@ -61,7 +61,7 @@ section {
 img.float-left {
     float: left;
     margin: 0 1em 1em 0;
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
 }
 
